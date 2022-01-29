@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'djangorazorpay.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'razorpay',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
 
@@ -120,6 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-RAZORPAY_API_KEY = 'rzp_test_VAiC9sv86mWNCz'
-RAZORPAY_API_SECRET_KEY = 'Iy7z2UwQE2tVTFUdrzudlUGl'
+RAZOR_KEY_ID = 'rzp_test_VAiC9sv86mWNCz'
+RAZOR_KEY_SECRET = 'Iy7z2UwQE2tVTFUdrzudlUGl'
 
