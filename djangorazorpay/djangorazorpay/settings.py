@@ -124,6 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-RAZOR_KEY_ID = 'rzp_test_VAiC9sv86mWNCz'
-RAZOR_KEY_SECRET = 'Iy7z2UwQE2tVTFUdrzudlUGl'
+RAZOR_KEY_ID = 'rzp_test_vSKVx5wXzFvPEb'
+RAZOR_KEY_SECRET = 'w9ysmtsb3UZjLjnUb34a1Hrm'
 
